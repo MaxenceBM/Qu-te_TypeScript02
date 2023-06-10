@@ -6,8 +6,9 @@ public class User {
     private Photo[] photos;
     private Address address;
     
-    public static void main(String[] args) {
-        // Code à exécuter ici
-        System.out.println("Programme exécuté avec succès !");
-    }
-}
+    public User(Date birthday, Number size, Photo[] photos, Address address) {
+        this.birthday = birthday;
+        this.size = size;
+        this.photos = photos;
+        this.address = address;
+    }}
